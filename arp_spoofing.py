@@ -25,8 +25,8 @@ def restart(destination_ip, src_ip):
 
 
 
-target_ip = "192.168.1.132" # Enter the target IP
-gateway_ip = "192.168.1.1" # Enter the gateway's IP
+target_ip = "" # Enter the target IP
+gateway_ip = "" # Enter the gateway's IP
 
 
 try:
