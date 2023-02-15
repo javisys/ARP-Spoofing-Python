@@ -1,4 +1,4 @@
-# Javi Ferrándiz | 13/02/2023 | github - https://github.com/javisys
+# Javi Ferrándiz | github - https://github.com/javisys
 import scapy.all as scapy
 import time
 
