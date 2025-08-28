@@ -34,7 +34,7 @@ def restart(destination_ip, src_ip):
     paquete = scapy.ARP(op = 2, pdst = destination_ip, hwdst = destination_mac, psrc = src_ip, hwsrc = src_mac)
     scapy.send(paquete, verbose = False)
 
-# Ingresar la IP del objetivo y la IP del gateway
+# Poner la IP del objetivo y la IP del gateway
 target_ip = ""  # Target IP
 gateway_ip = ""  # Gateway
 
@@ -55,3 +55,4 @@ else:
         restart(target_ip, gateway_ip)
         restart(gateway_ip, target_ip)
         print("[*] ARP Spoof stopped")
+
